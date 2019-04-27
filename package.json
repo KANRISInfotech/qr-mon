@@ -1,0 +1,18 @@
+{
+  "name": "ultimate-qr",
+  "version": "1.0.0",
+  "description": "A utility to generate svg qr codes with various style and options",
+  "main": "qr_gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qr",
+    "generator"
+  ],
+  "author": "KANRIS Infotech Pvt Ltd",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
