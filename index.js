@@ -1,14 +1,21 @@
 var express = require('express');
 var app = express();
 
-var qr = require('./lib/qr_gen');
+var qrw = require('./lib/qr_gen');
 
 app.get('/qr', function(req, res) {
-    let data = req.query.data
-    var code = qr.generate(data, { type: 'svg', shape: 'circle' });
-    res.type('svg');
-    res.send(code);
-    console.log(data);
+    let error = false;
+    let data = req.query.data ? req.query.data : error = true;
+    let shape = req.query.shape ? req.query.shape : 'default';
+    let color = req.query.color ? req.query.color : 'black';
+    if (!error) {
+        var code = qrw.generate('1', { type: 'svg', shape: shape, color: color });
+        res.type('svg');
+        res.send(code);
+    } else {
+        res.status(500);
+        res.json({ error: 'Something broke' });
+    }
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log('server started.....'));
