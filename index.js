@@ -12,6 +12,8 @@ app.get('/qr', function(req, res) {
     options.margin = req.query.margin ? req.query.margin : 0;
     options.background = req.query.background ? req.query.background : 'rgba(0,0,0,0)';
     options.fill = req.query.fill ? req.query.fill : 'solid';
+    options.eye_frame = req.query.eye_frame ? req.query.eye_frame : 'default';
+    options.eye = req.query.eye ? req.query.eye : 'default';
     if (!error) {
         var code = qrw.generate(options);
         res.type('svg');
