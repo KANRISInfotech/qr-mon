@@ -27,8 +27,6 @@ app.get('/qr', function(req, res) {
 
 app.listen(3000, () => console.log('server started.....'));
 ```
-HTML
-
 
 ### Options
 
@@ -38,3 +36,7 @@ HTML
 * shape - shape of points inside the code : default - 0
 * eye - type of eye ball : default - 0
 * eyeframe - type of the qr eye border : default - 0
+
+Option | Image
+--- | ---
+0 | ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
