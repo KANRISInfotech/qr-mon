@@ -1,0 +1,7 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="120" height="120" fill="rgb(255,255,255,1)" />
+<g transform="">
+<g transform="translate(10,10) scale(1, 1)"><g transform="" style="fill: rgb(0, 0, 0);">
+<path transform="translate(0 0) scale(1)" style="fill: rgb(0, 0, 0);fill-rule:evenodd;clip-rule:evenodd;" d="M49.984,99.824C45.848,69.47,28.497,53.961-0.345,49.773
+                        c29.054-3.697,45.791-19.659,50.348-49.949c4.404,29.487,20.907,45.691,49.652,49.975C70.729,54.051,54.532,70.407,49.984,99.824z"/>
+</g></g></g></svg>

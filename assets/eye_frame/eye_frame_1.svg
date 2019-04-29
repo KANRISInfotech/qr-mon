@@ -1,0 +1,10 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="120" height="120" fill="rgb(255,255,255,1)" />
+<g transform="">
+<g transform="translate(10,10) scale(1, 1)"><g transform="" style="fill: rgb(0, 0, 0);">
+
+<!-- SHAPE 3 -->
+<path style="fill:none;" d="M51,16c-19.299,0-35,15.701-35,35s15.701,35,35,35s35-15.701,35-35S70.299,16,51,16z"/>
+                    <path style="fill:rgb(0,0,0);" d="M51,1C23.387,1,1,23.387,1,51s22.387,50,50,50s50-22.387,50-50S78.613,1,51,1z M51,86c-19.299,0-35-15.701-35-35
+                    s15.701-35,35-35s35,15.701,35,35S70.299,86,51,86z"/>
+</g></g></g></svg>
