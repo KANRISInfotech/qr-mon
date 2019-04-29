@@ -1,7 +1,7 @@
 {
     "name": "qr-mon",
     "version": "1.0.0",
-    "description": "A utility to generate svg qr codes with various style and options",
+    "description": "Microservice to create qr data stream in NodeJS with customized design options.",
     "main": "./lib/qr_gen.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,16 @@
         "qr",
         "generator"
     ],
-    "author": "KANRIS Infotech Pvt Ltd",
+    "author": {
+        "name": "tiwarishikesh",
+        "company": "KANRIS Infotech Pvt Ltd"
+    },
     "license": "MIT",
     "dependencies": {
         "express": "^4.16.4"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alexeyten/qr-image.git"
+        "url": "https://github.com/KANRISInfotech/qr-mon"
     }
 }

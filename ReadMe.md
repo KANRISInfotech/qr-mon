@@ -2,11 +2,12 @@
 Microservice to create qr data stream in NodeJS with customized design options.
 
 ##
-
-<img src="assets/examples/qr_2.svg" width="100" style="margin-left:25px" >
-<img src="assets/examples/qr_3.svg" width="100" style="margin-left:25px" >
-<img src="assets/examples/qr_4.svg" width="100" style="margin-left:25px" >
-<img src="assets/examples/qr_5.svg" width="100" style="margin-left:25px" >
+<p float="left">
+<img src="assets/examples/qr_2.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
+<img src="assets/examples/qr_3.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
+<img src="assets/examples/qr_4.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
+<img src="assets/examples/qr_5.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
+</p>
 
 ### Getting Started
 ```
@@ -34,6 +35,7 @@ app.get('/qr', function(req, res) {
 
 app.listen(3000, () => console.log('server started.....'));
 ```
+
 ### HTML
 ```
 <img src="http://localhost:3000/qr?data=my_data">
@@ -106,8 +108,10 @@ gradient : rgb(0,0,0), rgb(2,119,189)
 + solid - rgb / name of color
 + gradient - color1.color2 
 
-<img src="assets/examples/qr.svg" width="150" left="0"/>
-<img src="assets/examples/qr_1.svg" width="150" style="margin-left:25px" left="0"/>
+<p float="center">
+<img src="assets/examples/qr.svg" width="150" style=";display:inline-block"/>
+<img src="assets/examples/qr_1.svg" width="150" style="margin-left:25px;display:inline-block" left="0"/>
+</p>
 
 ```
 1. http://localhost:3000/qr?data=my_data&fill=radial&color=red.black
