@@ -76,6 +76,10 @@ Option | Image
 2 | ![eye ball 2 image](/assets/eye_balls/eye_ball_2.svg " ")
 3 | ![eye ball 3 image](/assets/eye_balls/eye_ball_3.svg " ")
 4 | ![eye ball 4 image](/assets/eye_balls/eye_ball_4.svg " ")
+5 | ![eye ball 5 image](/assets/eye_balls/eye_ball_5.svg " ")
+6 | ![eye ball 6 image](/assets/eye_balls/eye_ball_6.svg " ")
+7 | ![eye ball 7 image](/assets/eye_balls/eye_ball_7.svg " ")
+8 | ![eye ball 8 image](/assets/eye_balls/eye_ball_8.svg " ")
 rotary | ![rotary eye ball image](/assets/eye_balls/eye_ball_rotary.svg " ")
 
 ### **eye frame**
@@ -89,6 +93,10 @@ Option | Image
 2 | ![eye_frame 2 image](/assets/eye_frame/eye_frame_2.svg " ")
 3 | ![eye_frame 3 image](/assets/eye_frame/eye_frame_3.svg " ")
 4 | ![eye_frame 4 image](/assets/eye_frame/eye_frame_4.svg " ")
+5 | ![eye_frame 5 image](/assets/eye_frame/eye_frame_5.svg " ")
+6 | ![eye_frame 6 image](/assets/eye_frame/eye_frame_6.svg " ")
+7 | ![eye_frame 7 image](/assets/eye_frame/eye_frame_7.svg " ")
+8 | ![eye_frame 8 image](/assets/eye_frame/eye_frame_8.svg " ")
 
 ### **fill**
 _Fill of the qr code_  
@@ -110,6 +118,7 @@ gradient : rgb(0,0,0), rgb(2,119,189)
 
 <p float="center">
 <img src="assets/examples/qr.svg" width="150" style=";display:inline-block"/>
+&nbsp;
 <img src="assets/examples/qr_1.svg" width="150" style="margin-left:25px;display:inline-block" left="0"/>
 </p>
 
