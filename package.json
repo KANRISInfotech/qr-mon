@@ -1,6 +1,6 @@
 {
     "name": "qr-mon",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Microservice to create qr data stream in NodeJS with customized design options.",
     "main": "./lib/qr_gen.js",
     "scripts": {

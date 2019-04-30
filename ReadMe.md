@@ -1,12 +1,14 @@
 # qr-mon
 Microservice to create qr data stream in NodeJS with customized design options.
+<br/><br/>[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.0.1)](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.0.0)
 
 ##
 <p float="left">
+<img src="assets/examples/qr_6.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
+<img src="assets/examples/qr_7.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
 <img src="assets/examples/qr_2.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
 <img src="assets/examples/qr_3.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
 <img src="assets/examples/qr_4.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
-<img src="assets/examples/qr_5.svg" width="100" style="margin-left:25px;display:inline-block" > &nbsp; &nbsp;
 </p>
 
 ### Getting Started
@@ -80,6 +82,7 @@ Option | Image
 6 | ![eye ball 6 image](/assets/eye_balls/eye_ball_6.svg " ")
 7 | ![eye ball 7 image](/assets/eye_balls/eye_ball_7.svg " ")
 8 | ![eye ball 8 image](/assets/eye_balls/eye_ball_8.svg " ")
+9 | ![eye ball 8 image](/assets/eye_balls/eye_ball_9.svg " ")
 rotary | ![rotary eye ball image](/assets/eye_balls/eye_ball_rotary.svg " ")
 
 ### **eye frame**
@@ -97,6 +100,7 @@ Option | Image
 6 | ![eye_frame 6 image](/assets/eye_frame/eye_frame_6.svg " ")
 7 | ![eye_frame 7 image](/assets/eye_frame/eye_frame_7.svg " ")
 8 | ![eye_frame 8 image](/assets/eye_frame/eye_frame_8.svg " ")
+9 | ![eye_frame 9 image](/assets/eye_frame/eye_frame_9.svg " ")
 
 ### **fill**
 _Fill of the qr code_  
